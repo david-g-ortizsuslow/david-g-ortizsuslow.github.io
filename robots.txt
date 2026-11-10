@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://david-g-ortizsuslow.github.io/sitemap.xml
