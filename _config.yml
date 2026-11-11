@@ -6,13 +6,14 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: David
 middle_name: G.
 last_name: Ortiz-Suslow
-contact_note: > # 
-Send me an email to get in touch!
+contact_note: >
+  Send me an email to get in touch!
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-Hi! I am Prof. David G. Ortiz-Suslow, Department of Meteorology, Naval Postgraduate School, and this is my website. I am an experimental physicist and an earth scientist, studying the atmosphere-ocean coupled system for the U.S. Navy. 
+  Hi! I am Prof. David G. Ortiz-Suslow, Department of Meteorology, Naval Postgraduate School, and this is my website. I am an experimental physicist and an earth scientist, studying the atmosphere-ocean coupled system for the U.S. Navy. 
 footer_text: >
-© 2026 David G. Ortiz-Suslow. The information provided here is unclassified, available for public distribution. The views expressed on this site are of a personal nature and do not necessarily reflect the views of the Naval Postgraduate School, the U.S. Navy, Department of War, or the U.S. Government. Built with <a href="https://github.com/alshedivat/al-folio">al-folio</a> and <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>. 
-keywords: earth science, experimental physics, fluid mechanics, air-sea interaction, atmospheric boundary layers, atmospheric turbulence, EM/EO propagation, naval postgraduate school, meteorology, NPS, field methods, field campaigns, micrometeorology, marine atmospheric surface layer # add your own keywords or leave empty
+  © 2026 David G. Ortiz-Suslow. The information provided here is unclassified, available for public distribution. The views expressed on this site are of a personal nature and do not necessarily reflect the views of the Naval Postgraduate School, the U.S. Navy, Department of War, or the U.S. Government. Built with <a href="https://github.com/alshedivat/al-folio">al-folio</a> and <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>. 
+keywords: >
+  earth science, experimental physics, fluid mechanics, air-sea interaction, atmospheric boundary layers, atmospheric turbulence, EM/EO propagation, naval postgraduate school, meteorology, NPS, field methods, field campaigns, micrometeorology, marine atmospheric surface layer # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🌊 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 apple_touch_icon: # image name in /assets/img/ (or a rooted path / absolute URL) used for iOS home-screen bookmarks; needs a real 180x180 PNG, since Safari ignores the emoji favicon above. Left empty, iOS falls back to a screenshot of the page.
@@ -134,8 +135,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: Beneath The Surface # blog_name will be displayed in your blog page
+blog_description: At the interface of updates and science.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -164,7 +165,7 @@ giscus:
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: [] # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
@@ -350,8 +351,8 @@ display_categories: [] # these categories will be displayed on the front page of
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Ortiz-Suslow]
+  first_name: [David, D., "D. G."]
 
   style: apa
   locale: en
