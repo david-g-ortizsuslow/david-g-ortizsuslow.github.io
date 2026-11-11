@@ -13,7 +13,7 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: >
   © 2026 David G. Ortiz-Suslow. The information provided here is unclassified, available for public distribution. The views expressed on this site are of a personal nature and do not necessarily reflect the views of the Naval Postgraduate School, the U.S. Navy, Department of War, or the U.S. Government. Built with <a href="https://github.com/alshedivat/al-folio">al-folio</a> and <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>. 
 keywords: >
-  earth science, experimental physics, fluid mechanics, air-sea interaction, atmospheric boundary layers, atmospheric turbulence, EM/EO propagation, naval postgraduate school, meteorology, NPS, field methods, field campaigns, micrometeorology, marine atmospheric surface layer # add your own keywords or leave empty
+  earth science, experimental physics, fluid mechanics, air-sea interaction, atmospheric boundary layers, atmospheric turbulence, EM/EO propagation, naval postgraduate school, meteorology, NPS, field methods, field campaigns, micrometeorology, marine atmospheric surface layer
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🌊 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 apple_touch_icon: # image name in /assets/img/ (or a rooted path / absolute URL) used for iOS home-screen bookmarks; needs a real 180x180 PNG, since Safari ignores the emoji favicon above. Left empty, iOS falls back to a screenshot of the page.
@@ -165,7 +165,7 @@ giscus:
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: [] # put your disqus shortname
+disqus_shortname: # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
@@ -358,7 +358,7 @@ scholar:
   locale: en
 
   source: /_bibliography/
-  bibliography: papers.bib
+  bibliography: Ortizsuslow_papers.bib
   bibliography_template: bib
   # Note: if you have latex math in your bibtex, the latex filter
   # preprocessing may conflict with MathJAX if the latter is enabled.
