@@ -6,17 +6,15 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: David
 middle_name: G.
 last_name: Ortiz-Suslow
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+contact_note: > # 
+	Send me an email to get in touch!
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+	Hi! I am Prof. David G. Ortiz-Suslow, Department of Meteorology, Naval Postgraduate School, and this is my website. I am an experimental physicist and an earth scientist, studying the atmosphere-ocean coupled system for the U.S. Navy. 
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+	© 2026 David G. Ortiz-Suslow. The information provided here is unclassified, available for public distribution. The views expressed on this site are of a personal nature and do not necessarily reflect the views of the Naval Postgraduate School, the U.S. Navy, Department of War, or the U.S. Government. Built with <a href="https://github.com/alshedivat/al-folio">al-folio</a> and <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>. 
+keywords: earth science, experimental physics, fluid mechanics, air-sea interaction, atmospheric boundary layers, atmospheric turbulence, EM/EO propagation, naval postgraduate school, meteorology, NPS, field methods, field campaigns, micrometeorology, marine atmospheric surface layer # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 🌊 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 apple_touch_icon: # image name in /assets/img/ (or a rooted path / absolute URL) used for iOS home-screen bookmarks; needs a real 180x180 PNG, since Safari ignores the emoji favicon above. Left empty, iOS falls back to a screenshot of the page.
 
 url: https://david-g-ortizsuslow.github.io # the base hostname & protocol for your site
@@ -344,8 +342,8 @@ jekyll-archives:
   # books:
   #   enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+display_tags: [] # these tags will be displayed on the front page of your blog
+display_categories: [] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
