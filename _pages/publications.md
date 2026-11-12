@@ -38,11 +38,11 @@ nav_order: 2
 <div class="pub-key" role="group" aria-label="Filter publications by type">
   <strong>Filter:</strong>
   <button type="button" class="pub-chip chip-all" data-filter="all" aria-pressed="true">All <span class="pub-count"></span></button>
-  <button type="button" class="pub-chip chip-journal" data-filter="journal" aria-pressed="false">Peer-reviewed journal <span class="pub-count"></span></button>
-  <button type="button" class="pub-chip chip-conf" data-filter="conference" aria-pressed="false">Conference paper <span class="pub-count"></span></button>
-  <button type="button" class="pub-chip chip-report" data-filter="report" aria-pressed="false">Technical report <span class="pub-count"></span></button>
-  <button type="button" class="pub-chip chip-edit" data-filter="editorial" aria-pressed="false">Editorial / community <span class="pub-count"></span></button>
-  <button type="button" class="pub-chip chip-pending" data-filter="pending" aria-pressed="false">In review / in preparation <span class="pub-count"></span></button>
+  <button type="button" class="pub-chip chip-journal" data-filter="journal" aria-pressed="false">Peer-reviewed <span class="pub-count"></span></button>
+  <button type="button" class="pub-chip chip-conf" data-filter="conference" aria-pressed="false">Conference papers <span class="pub-count"></span></button>
+  <button type="button" class="pub-chip chip-report" data-filter="report" aria-pressed="false">Reports <span class="pub-count"></span></button>
+  <button type="button" class="pub-chip chip-edit" data-filter="editorial" aria-pressed="false">Editorial <span class="pub-count"></span></button>
+  <button type="button" class="pub-chip chip-pending" data-filter="pending" aria-pressed="false">Developing <span class="pub-count"></span></button>
   <span class="pub-status" aria-live="polite"></span>
 </div>
 
