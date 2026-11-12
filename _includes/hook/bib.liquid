@@ -1,0 +1,7 @@
+{%- comment -%}
+  Runs once inside every publication entry (the theme looks for this exact file).
+  It copies the entry's BibTeX "category" field into the page as a hidden marker,
+  so the type filter on the Publications page can read it. Allowed values:
+  journal, conference, report, editorial, pending.
+{%- endcomment -%}
+{%- if entry.category -%}<span class="pub-type" data-pubtype="{{ entry.category | strip | downcase | escape }}" hidden></span>{%- endif -%}
